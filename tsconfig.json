@@ -1,15 +1,21 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "strict": true,
+    "resolveJsonModule": true,
+        "strict": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist/out-tsc",
     "rootDirs": [
       "./src",
       "./e2e"
     ],
-    "baseUrl": "./",
+    "paths": {
+      "@app/*" : ["app/*"],
+      "@env/*" : ["environments/*"],
+      "@shared/*": ["app/shared/*"]
+    },
+    "baseUrl": "src",
     "removeComments": true,
     "sourceMap": true,
     "declaration": false,
@@ -17,7 +23,7 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2015",
+    "target": "es2018",
     "module": "es2020",
     "lib": [
       "es2018",

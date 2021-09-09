@@ -1,8 +1,9 @@
 # Angular Template with ESLint, Jest and Prettier
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.3.
-And upgraded to angular 11 and then to 12 also using Angular CLI `ng upgrade`.
-I also changed the unit testing tool from jasmine/karma to jest.
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.3.
+But later I've upgraded it to angular 11 and then to 12, also by using Angular CLI with `ng upgrade` command.
+- I also changed the unit testing tool from `jasmine/karma` to `jest`.
+- And finally, changed `protractor` to `cypress`.
 
 ## Development server
 
@@ -22,7 +23,7 @@ Run `ng test` to execute the unit tests via [Jest](https://jestjs.io/) instead o
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `ng e2e` to build the project and open [Cypress](http://cypress.io/) or you can run `yarn cyr` to just run end-to-end tests via cypress or you can also run `yarn cyo` to open cypress without building the project.
 
 ## Further help
 

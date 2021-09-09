@@ -13,7 +13,8 @@
     "paths": {
       "@app/*" : ["app/*"],
       "@env/*" : ["environments/*"],
-      "@shared/*": ["app/shared/*"]
+      "@shared/*": ["app/shared/*"],
+      "@e2e/*": ["cypress/*"]
     },
     "baseUrl": "src",
     "removeComments": true,

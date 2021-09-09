@@ -1,9 +1,9 @@
-# Angular Template with ESLint, Jest and Prettier
+# Angular Template with ESLint, Prettier, Cypress and Jest
 
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.3.
 But later I've upgraded it to angular 11 and then to 12, also by using Angular CLI with `ng upgrade` command.
 - I also changed the unit testing tool from `jasmine/karma` to `jest`.
-- And finally, changed `protractor` to `cypress`.
+- And finally, changed e2e tests from `protractor` to `cypress`.
 
 ## Development server
 

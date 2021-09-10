@@ -63,5 +63,8 @@
       "pre-commit": "ng lint",
       "pre-push": "ng build --configuration=production && ng test"
     }
+  },
+  "optionalDependencies": {
+    "husky": "^7.0.2"
   }
 }

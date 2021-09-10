@@ -61,8 +61,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "ng lint",
-      "pre-push": "ng build && ng test"
+      "pre-commit": "yarn lint",
+      "pre-push": "yarn build --configuration=production && yarn test"
     }
   }
 }
